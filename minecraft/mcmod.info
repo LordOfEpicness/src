@@ -1,0 +1,28 @@
+[
+{
+  "modid": MonsterHunterFrontier
+  "name": "MHF Monster Hunter Frontier",
+  "description": "Inspired from the game Monster Hunter Frontier",
+  "version": "Beta 0.8.6",
+  "mcversion": "1.5.2",
+  "url": "http://www.google.com",
+  "updateUrl": "",
+  "authors": [
+    "Heltrato",
+"LordOfEpicness",
+"Mr.Sheep"
+	
+  ],
+  "credits": "The monster hunter modding team",
+  "logoFile": "/MHFlogo.png",
+  "screenshots": [
+    "",
+    "shot2.png"
+  ],
+  
+  "dependencies": [
+     "CustomSpawner",
+     "GUI_Api"
+  ]
+}
+]
