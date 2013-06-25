@@ -14,7 +14,7 @@ public class ItemRockB extends Item
 	}
 	public void registerIcons(IconRegister par1IconRegister)
 	{
-	        this.itemIcon = par1IconRegister.registerIcon("monsterhunter:itemrockB");
+	        this.itemIcon = par1IconRegister.registerIcon("monsterhunter:itemRockB");
 	}
 
 	

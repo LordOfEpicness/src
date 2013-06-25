@@ -34,10 +34,10 @@ public class EntityErupe extends EntityNewMobs {
 	public EntityErupe(World par1World) {
 		super(par1World);
 		this.texture = "/mods/monsterhunter/textures/mobs/Erupe.png";
-		this.moveSpeed = 0.3F;
+		this.moveSpeed = 0.1F;
 		this.experienceValue = 15;
 		this.getNavigator().setAvoidsWater(true);
-		this.tasks.addTask(1, new EntityAIPanic(this, 0.38F));
+		this.tasks.addTask(1, new EntityAIPanic(this, 0.21F));
 	    this.tasks.addTask(2, new EntityAITempt(this, 0.35F, Item.wheat.itemID, false));
 	    this.tasks.addTask(3, new EntityAIWander(this, 0.4F));
 	    this.tasks.addTask(4, this.aiEatGrass);

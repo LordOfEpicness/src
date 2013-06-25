@@ -195,7 +195,7 @@ public class MonsterHunterFrontier
 		LanguageRegistry.instance().addStringLocalization("entity.MHF.Popo.name", "en_US", "Popo");
 		LanguageRegistry.instance().addStringLocalization("entity.MHF.Erupe.name", "en_US", "Erupe");
 		LanguageRegistry.instance().addStringLocalization("entity.MHF.Village Defender.name", "en_US", "Village Defender");
-		LanguageRegistry.instance().addStringLocalization("entity.MHF.WarriorFinale.name", "en_US", "Enforcer");
+		LanguageRegistry.instance().addStringLocalization("entity.MHF.Enforcer.name", "en_US", "Enforcer");
 		
 		
 		
