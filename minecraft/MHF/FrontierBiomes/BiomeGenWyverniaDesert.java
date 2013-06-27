@@ -18,12 +18,12 @@ public class BiomeGenWyverniaDesert extends BiomeGenBase {
 		this.spawnableMonsterList.clear();
 		this.spawnableWaterCreatureList.clear();
 		this.topBlock = (byte)MainBlock.blockDesertSand_1.blockID;
-        this.fillerBlock = (byte)Block.sand.blockID;
-        this.theBiomeDecorator.treesPerChunk = -999;
-        this.theBiomeDecorator.deadBushPerChunk = 2;
-        this.theBiomeDecorator.generateLakes = false;
-        this.spawnableMonsterList.add(new SpawnListEntry(EntityCephadrome.class, 1, 1, 1));
-        this.spawnableCreatureList.add(new SpawnListEntry(EntityCephalos.class, 1, 1, 1));
+        	this.fillerBlock = (byte)MainBlock.blockDesertSand_1.blockID;
+        	this.theBiomeDecorator.treesPerChunk = -999;
+        	this.theBiomeDecorator.deadBushPerChunk = 2;
+        	this.theBiomeDecorator.generateLakes = false;
+        	this.spawnableMonsterList.add(new SpawnListEntry(EntityCephadrome.class, 1, 1, 1));
+        	this.spawnableCreatureList.add(new SpawnListEntry(EntityCephalos.class, 1, 1, 1));
 	}
 
 }
