@@ -56,13 +56,13 @@ public class MainBlock {
 	public static void init() {
 
 		//Blocks
-		  DiscStone = new FUCBlockClass(202, "Disc Stone").setUnlocalizedName("discStone").setHardness(1.5F).setResistance(1.0F);
-		  ArmorSphere = new FUCOreBlock1(203, "Armor Sphere").setUnlocalizedName("oreArmorSphere").setHardness(2.0F).setResistance(2.0F);
-	      MachaliteOre = new FUCOreBlock2(204, "MachaliteOre").setUnlocalizedName("oreMachalite").setHardness(4.5F).setResistance(3.7F);
-	      blockDesertSand_1 = new FUCBlockSand_1(205, "Desert Sand").setUnlocalizedName("blockSand_1").setHardness(0.7F).setResistance(0.7F);
-	      blockDesign = new FUCBlockDesign_1(206, "Block Design").setUnlocalizedName("blockDesign").setHardness(3.7F).setResistance(1.7F);
-	      blockFUCGrass_1 = new FUCBlockGrass1(207).setUnlocalizedName("fucGrassSide");
-	      blockFUCDirt_1 = new FUCBlockDirt(208, Material.ground).setUnlocalizedName("fucDirt");
+		  DiscStone = new FUCBlockClass(2201, "Disc Stone").setUnlocalizedName("discStone").setHardness(1.5F).setResistance(1.0F);
+		  ArmorSphere = new FUCOreBlock1(2202, "Armor Sphere").setUnlocalizedName("oreArmorSphere").setHardness(2.0F).setResistance(2.0F);
+	      MachaliteOre = new FUCOreBlock2(2203, "MachaliteOre").setUnlocalizedName("oreMachalite").setHardness(4.5F).setResistance(3.7F);
+	      blockDesertSand_1 = new FUCBlockSand_1(2204, "Desert Sand").setUnlocalizedName("blockSand_1").setHardness(0.7F).setResistance(0.7F);
+	      blockDesign = new FUCBlockDesign_1(2205, "Block Design").setUnlocalizedName("blockDesign").setHardness(3.7F).setResistance(1.7F);
+	      blockFUCGrass_1 = new FUCBlockGrass1(2206).setUnlocalizedName("fucGrassSide");
+	      blockFUCDirt_1 = new FUCBlockDirt(2207, Material.ground).setUnlocalizedName("fucDirt");
 	     
 		  oreArmorjewel0 = new BlockArmorjewelOre0(2301, Material.rock).setHardness(3.0F).setResistance(5.0F).setUnlocalizedName("oreArmorjewel0");
 		  oreArmorjewel1 = new BlockArmorjewelOre1(2302, Material.rock).setHardness(3.0F).setResistance(5.0F).setUnlocalizedName("oreArmorjewel1");
