@@ -36,6 +36,8 @@ public class MainBlock {
 	public static Block oreStone7;
 	public static Block oreStone8;
 	public static Block oreStone9;
+
+        Public static Block portalTrigger;
 	
 	public static Block oreArmorstone0;
 	public static Block oreArmorstone1;
@@ -88,7 +90,7 @@ public class MainBlock {
 		  oreArmorstone5 = new BlockArmorstoneOre5(2320, Material.rock).setHardness(3.0F).setResistance(5.0F).setUnlocalizedName("oreArmorstone5");
 		  oreArmorstone6 = new BlockArmorstoneOre6(2321, Material.rock).setHardness(3.0F).setResistance(5.0F).setUnlocalizedName("oreArmorstone6");
 		  
-		  
+		  portalTrigger = new BlockPortalTrigger.setUnlocalizedName("fire wyvernia");
 		  
 		  BonePile = new BlockBonePile(2325, 300).setUnlocalizedName("BonePile");
 		  Portal = new BlockWyverniaPortal(2327).setUnlocalizedName("Portal");
@@ -123,6 +125,7 @@ public class MainBlock {
 		  GameRegistry.registerBlock(oreArmorstone5, "Ryl Armor Sphere Ore");
 		  GameRegistry.registerBlock(oreArmorstone6, "Tru Armor Sphere Ore");
 		  
+                  GameRegistry.registerBlock(portalTrigger, "Wyvernia Fire");
 
 			GameRegistry.registerBlock(DiscStone, "Disc Stone");
 			GameRegistry.registerBlock(ArmorSphere, "ArmorSphere");
@@ -174,6 +177,8 @@ public class MainBlock {
 		  LanguageRegistry.addName(Mush1 , "Blue Mushroom");
 		  LanguageRegistry.addName(Mush3, "Special Mushroom"); 	  
 		  
+                  LanguageRegistry.addName(portalTrigger, "Wyvernia Fire");
+
 		  LanguageRegistry.addName(DiscStone, "Disc Stone");
 		  LanguageRegistry.addName(ArmorSphere, "Armor Sphere");
 		  LanguageRegistry.addName(MachaliteOre, "Machalite Ore");
